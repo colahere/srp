@@ -32,7 +32,7 @@ class SrpController extends Controller
 	->join('killmail_details','killmails.killmail_id', '=','killmail_details.killmail_id')
 	->where('refresh_tokens.user_id', '=', auth()->user()->id)
 	->select('killmail_victims.*', 'killmails.killmail_hash','refresh_tokens.user_id','character_infos.name','invTypes.typeName','killmail_details.killmail_time')
-    ->orderby ('killmail_details.killmail_id','desc')
+    ->orderby ('killmail_details.killmail_time','desc')
 		 ->get();
 	$victimlists = array();
 
