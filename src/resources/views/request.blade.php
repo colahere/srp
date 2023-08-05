@@ -20,7 +20,8 @@
                <select name="killMailUrl" id="killMailUrl" style="width: 100%">
                 <option value=""></option>
                 @foreach(json_decode($victimlists,false) as $victimlist)
-		<option value="https://esi.evetech.net/latest/killmails/{{$victimlist->killmail_id}}/{{$victimlist->killmail_hash}}">{'舰船名称':'{{$victimlist->name}}';'角色名称':'{{$victimlist->character_name}}';'损失时间':'{{$victimlist->time}}'}</option>
+		<option value="https://esi.evetech.net/latest/killmails/{{$victimlist->killmail_id}}/{{$victimlist->killmail_hash}}">
+            舰船名称:{{$victimlist->name}}&ensp;&ensp;&ensp;角色名称:{{$victimlist->character_name}}&ensp;&ensp;&ensp;损失时间:{{$victimlist->time}}</option>
                 @endforeach
          	   </select>
             </div>
