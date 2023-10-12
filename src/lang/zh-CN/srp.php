@@ -15,7 +15,7 @@ return [
     'action' => '状态',
     'metrics' => '统计',
 
-    'request_inst'      =>  '打开人物链接Character Sheet -> 交互 Interactions -> 战斗记录 Combat Log -> 击毁报告 Losses -> 外部链接 External URL。 黏贴到这个框里。',
+    'request_inst'      =>  '在下拉菜单中选择你需要补损的船，如果未找到请等待2小时seat同步',
     'request_new'       =>  '申请补损',
     'ping_info'         =>  '把集结信息写在这里。',
     'ping'              =>  '集结信息',
