@@ -39,13 +39,12 @@
 
         <p>
             <table class="table table-borderless">
-                <tr> <td>SRP</td> <td> <a href="https://evewho.com/character/2119322182"> {!! img('characters', 'portrait', 2119322182, 64, ['class' => 'img-circle eve-icon small-icon']) !!} Crypta Electrica</a></td></tr>
+                <tr> <td>SRP</td> <td> <a href="https://evewho.com/character/2119322182"> {!! img('characters', 'portrait', 2119322182, 64, ['class' => 'img-circle eve-icon small-icon']) !!} icocacola</a></td></tr>
 
                 <tr> <td>Seat</td> <td> <a href="https://evewho.com/corporation/98482334"> {!! img('corporations', 'logo', 98482334, 64, ['class' => 'img-circle eve-icon small-icon']) !!} eveseat.net</a></td></tr>
             </table>
         </p>
 
-        <p> If you are one of those people who feels ISK is never enough..... I will just drop this here.... my <a href="https://www.patreon.com/cryptaelectrica"> patreon</a>.</p>
         </div>
     </div>
     <div class="card-footer text-muted">
