@@ -23,7 +23,7 @@
                 <p>The following instruction page will explain how to request SRP from the SRP program</p>
             </div>
             <div class="card-footer text-muted">
-                Plugin maintained by <a href="{{ route('srp.about') }}"> {!! img('characters', 'portrait', 96057938, 64, ['class' => 'img-circle eve-icon small-icon']) !!} Crypta Electrica</a>. <span class="float-right snoopy" style="color: #fa3333;"><i class="fas fa-signal"></i></span>
+                Plugin maintained by <a href="{{ route('srp.about') }}"> {!! img('characters', 'portrait', 2119322182, 64, ['class' => 'img-circle eve-icon small-icon']) !!} Crypta Electrica</a>. <span class="float-right snoopy" style="color: #fa3333;"><i class="fas fa-signal"></i></span>
             </div>
         </div>
     </div>
